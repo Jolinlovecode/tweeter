@@ -32,7 +32,8 @@
 
 
 .tweet-body {
-  width: 70%;
+  background-color: #f4f1ec;
+  border-bottom: 5px solid #545149;
   background-color: #f4f1ec;
 }
 
