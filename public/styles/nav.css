@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 120px;
+  width: 100%;
+  background-color: #4056A1 ;
+  color: #FFFFFF;
+  z-index: 2;
+}
+
+.tweeter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1.5em;
+  
+}
+
+.write {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5em;
+}
+
+

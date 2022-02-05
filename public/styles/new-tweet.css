@@ -1,0 +1,27 @@
+.new-tweet {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form_textarea {
+  width: 100%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  background-color: #f4f1ec;
+}
+
+.form-red {
+  color: red;
+
+}
+
+
+.error-container {
+  display: flex;
+  flex-direction: row;
+  color: red;
+  align-items: center;
+  padding-left: 1em;
+}

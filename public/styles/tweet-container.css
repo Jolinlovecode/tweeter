@@ -1,0 +1,54 @@
+.tweet {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+
+.tweet-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+#avatar-name {
+  display: flex;
+}
+
+
+.tweet-avatar {
+  width: 30px;
+  height: 50px;
+}
+
+
+.tweet-name {
+  margin-left: 20px;
+  font-size: small;
+}
+
+
+.tweet-body {
+  width: 70%;
+  background-color: #f4f1ec;
+}
+
+
+.tweet-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: small;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+
+.footer-actions .fas:hover {
+  color: gold;
+}
+
