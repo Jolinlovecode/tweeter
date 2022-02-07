@@ -28,23 +28,23 @@ $(document).ready(function() {
   };
   loadTweets();
 
-  $('.newtweet_form').on('submit', function(event) {
+  $('.new-tweet-form').on('submit', function(event) {
     event.preventDefault();
     const serializedData = $(this).serialize();
 
-      if ($('.form_textarea').val().length > 140) {
+      if ($('.form-textarea').val().length > 140) {
         $('.error-container').empty();
         $('.error-container').append(`<i class="fas fa-exclamation-triangle"></i><h4 class='error'> Too long </h4><i class="fas fa-exclamation-triangle"></i>`);
         $('.error-container').slideDown("fast");
-        $('.form_textarea').val('').empty();
-      } else if ($('.form_textarea').val() === '') {
+        $('.form-textarea').val('').empty();
+      } else if ($('.form-textarea').val() === '') {
         $('.error-container').empty();
         $('.error-container').append(`<i class="fas fa-exclamation-triangle"></i><h4 class='error'> Empty!</h4><i class="fas fa-exclamation-triangle"></i>`);
         $('.error-container').slideDown("fast");
       } else {
         $.post('/tweets', serializedData, (response) => {
           $('.error-container').empty();
-          $('.form_textarea').val('').empty();
+          $('.form-textarea').val('').empty();
           loadTweets();
         });
       }
