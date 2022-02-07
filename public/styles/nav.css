@@ -1,20 +1,19 @@
 nav {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   height: 120px;
   width: 100%;
-  background-color: #4056A1 ;
+  padding: 0 1.5em;
+  
   color: #FFFFFF;
   z-index: 2;
-}
+  background-color: green;
+  /* background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png"); */
+} 
 
 .tweeter {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 1.5em;
-  
+  font-family: 'Bungee', cursive;
 }
 
 .write {
@@ -22,7 +21,11 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 1.5em;
+}
+
+.write i {
+  color:red;
+  margin-top: -1em;
 }
 
 

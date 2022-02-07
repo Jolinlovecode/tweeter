@@ -22,24 +22,11 @@ body {
 }
 
 .container {
+  width: 90%;
   display: flex;
   flex-direction: column;
-  width: 90%;
   justify-content: center;
   background-color: #f4f1ec;
-  margin: 3em;
   padding: 1em;
-
-}
-
-
-nav {
-  font-family: 'Bungee', cursive;
-}
-
-.button-counter {
-  display: flex;
-  justify-content: space-between;
-  padding: 1em;
-  
+  margin: 1em auto;
 }
