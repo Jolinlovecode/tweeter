@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="/styles/header.css" type="text/css">
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css">
     <link rel="stylesheet" href="/styles/tweet-container.css" type="text/css">
+    <link rel="stylesheet" href="/styles/media.css" type="text/css">
+
 
 
     <!-- External JS -->
@@ -38,14 +40,16 @@
   <body>
     <!-- Top nav bar (fixed) -->
     <nav>
-    <div class="tweeter"><span>tweeter</span></div>
-    <div class="write">
-      <p><strong>Write</strong> a new tweet</p>
-      <i class="fas fa-angle-double-down"></i>
-    </div>
+      <span class="tweeter">tweeter</span>
+      <div class="write">
+        <p><strong>Write</strong> a new tweet</p>
+        <i class="fas fa-angle-double-down"></i>
+      </div>
     </nav>
+
+    <!-- header -->
     <header class="main-header">
-      <div id="im">
+      <div class="header-avatar">
           <img src="/images/profile-hex.png"> 
       </div>
       <br>
@@ -59,12 +63,11 @@
     <main class="container">
       <!--Error container for validation error message-->
       <section class="error-container"></section>
-    
 
       <!--New tweet input here-->
       <section class="new-tweet">
-          <form class="newtweet_form" method="POST" action="/tweets">
-            <textarea class="form_textarea" name="text" placeholder="What are you humming about?"></textarea>
+          <form class="new-tweet-form" method="POST" action="/tweets">
+            <textarea class="form-textarea" name="text" placeholder="What are you humming about?"></textarea>
             <div class="button-counter">
               <button type="submit">Tweet</button>
               <output name="counter" class="counter" for="tweet-text">140</output>
@@ -77,4 +80,6 @@
     </main>
   </body>
 </html>
+
+
 
