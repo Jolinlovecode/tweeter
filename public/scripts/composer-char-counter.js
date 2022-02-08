@@ -1,7 +1,7 @@
 $(document).ready(() => {
   // $('#tweet-text').on // . for class selector, # for id selector
-  $(".form_textarea").on("keyup", function(event) {
-    let $input = $('.form_textarea');
+  $(".form-textarea").on("keyup", function(event) {
+    let $input = $('.form-textarea');
     let len = $input.val().length;
     let charsLeft = 140 - len;
     
