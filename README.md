@@ -16,7 +16,7 @@ This repository is the starter code for the project: Students will fork and clon
 
 !["tweet body"](https://github.com/Jolinlovecode/tweeter/blob/master/%20docs/tweet-body.png?raw=true)
 
-!["responsive web design"](https://github.com/Jolinlovecode/tweeter/blob/master/%20docs/responsive%20web%20design.png?raw=true)
+!["responsive web design"](https://github.com/Jolinlovecode/tweeter/blob/master/%20docs/tweet-body.png?raw=true)
 ## Dependencies
 
 - Express
