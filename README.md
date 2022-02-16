@@ -12,10 +12,11 @@ This repository is the starter code for the project: Students will fork and clon
 3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
 4. Go to <http://localhost:8080/> in your browser.
 
-![ “tweet header with name and avator” ](https://github.com/Jolinlovecode/tweeter/blob/master/%20docs/tweet-%20header.png?raw=true)
+![ “tweet header with name and avator” ](https://github.com/Jolinlovecode/tweeter/blob/master/%20docs/tweet-header.png?raw=true)
 
 !["tweet body"](https://github.com/Jolinlovecode/tweeter/blob/master/%20docs/tweet-body.png?raw=true)
 
+!["responsive web design"](https://github.com/Jolinlovecode/tweeter/blob/master/%20docs/responsive%20web%20design.png?raw=true)
 ## Dependencies
 
 - Express
